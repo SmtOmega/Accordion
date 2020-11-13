@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+h3 {
+  padding: 0;
+  text-align: left;
+}
+p {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: -5px;
+}
+.accordion {
+  padding: 0;
+  width: 850px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(53, 51, 47, 0.8);
+  background-color: rgb(255, 253, 253);
+}
+.right-div{
+  max-width: 25%;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+.left-div {
+  width: 65%;
+  margin-left: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.card {
+  
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(194, 191, 186, 0.8);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: #FFF;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color:  rgb(216, 201, 201)t;
+  color: rgb(88, 23, 23);
+}
+.btn:focus {
+  outline: none;
+}
+@media screen and (max-width: 650px){
+  .accordion {
+    flex-direction:  column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+  }
+  .left-div{
+    width: 100%;
+    margin: 0;
+
+  }
+  .right-div{
+    max-width: 90%;
+  }
+  .card {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
