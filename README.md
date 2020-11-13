@@ -13,7 +13,7 @@ A Complete Design of An Accordion Using React
 
 ![image when displaying both Questions and answer](./src/images/2.png)
 
-
+# Mobile View of the  web app
 ![mobile view images](./src/images/mobile1.png)
 
 
